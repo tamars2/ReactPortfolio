@@ -167,10 +167,7 @@ module.exports = {
         include: paths.appSrc,
         loader: 'babel-loader',
         query: {
-          cacheDirectory: true,
-          plugins: [
-            'react-hot-loader/babel'
-          ]
+          cacheDirectory: true
         }
       },
       // "postcss" loader applies autoprefixer to our CSS.
