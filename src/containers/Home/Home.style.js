@@ -6,7 +6,8 @@ export const Image = styled.img`
 `;
 
 export const MyImage = styled.div`
-	height: 100vh;
+	height: 75vh;
+	width: 100%;
 	background-image: url('${require('../../assets/trent2.jpg')}');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -17,7 +18,7 @@ export const MyImage = styled.div`
 	align-content: center;
 	justify-content: center;
 
-	color: #0f85cd;
+	color: black;
 
 
 	h1 {
@@ -29,7 +30,7 @@ export const MyImage = styled.div`
 `;
 
 export const RevealP = styled.p`
-
+line-height: 120%;
 
 `;
 
@@ -39,6 +40,7 @@ export const NavImages = styled.div`
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
+    padding-top: 10px;
 
 `;
 

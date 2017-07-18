@@ -14,17 +14,19 @@ import {
 export default class Home extends Component {
 	render() {
 		return(
-
-			<Container>
+			<div>
 			<Nav />
+			<Container>
+			
 			<MyImage>
 			<h1>Trent Marshall</h1>
 			<h2>Full Stack Developer</h2>
 			</MyImage>
 			{/*			 <Image src={require("../../assets/trent.jpg")} alt="trent-jpg" /> */}
 
-			<RevealP>Hi! I am Trent, a full stack web developer specializing in MERN. Welcome to my portfolio! (Built 100% with React). I am a fast learning and adaptable person.  Click the GitHub link above to see some of my featured work!  Connect with me via email at trentallen.marshall@gmail.com</RevealP>
+			<RevealP>Hi! I am Trent, a full stack web developer specializing in MERN. Welcome to my portfolio! (Built 100% with React). I am a fast learning and adaptable person.  Click the GitHub link above to see some of my featured work!  New features are coming soon..</RevealP>
 			</Container>
+			</div>
 		)
 	}
 
