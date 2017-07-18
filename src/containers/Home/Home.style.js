@@ -27,6 +27,11 @@ export const MyImage = styled.div`
 	h1, h2 {
 		padding-left: 10px;
 	}
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+  z-index: 100;
 `;
 
 export const RevealP = styled.p`
