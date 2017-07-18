@@ -19,8 +19,12 @@ export const MyImage = styled.div`
 
 	color: #0f85cd;
 
+
 	h1 {
 		margin-bottom: 0px;
+	}
+	h1, h2 {
+		padding-left: 10px;
 	}
 `;
 
