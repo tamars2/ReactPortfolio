@@ -20,4 +20,4 @@ injectGlobal`
 		font-size: 24px;
 		font-weight: lighter;
 	}
-`
+`;

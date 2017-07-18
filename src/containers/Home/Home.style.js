@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.css';
 
 export const Image = styled.img`
 	width: 100%;
@@ -30,12 +31,23 @@ export const MyImage = styled.div`
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
     -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
     box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	border-style: groove;
+  	z-index: 100;
 
-  z-index: 100;
+  	bg1 {
+  		opacity: 50%;
+  	}
+
+  	h3 {
+  		float: right;
+  		padding-left: 20px;
+  		pull-right();
+  	}
 `;
 
 export const RevealP = styled.p`
 line-height: 120%;
+padding: 20px;
 
 `;
 
@@ -46,13 +58,13 @@ export const NavImages = styled.div`
     justify-content: center;
     flex-flow: row wrap;
     padding-top: 10px;
+    overflow: hidden;
 
 `;
 
 export const Links = styled.img`
-	padding-left: 150px;
-	padding-right: 150px;
-
+	margin-left: 100px;
+	margin-right: 100px;
 `;
 
 // export const Stack = styled.a`
